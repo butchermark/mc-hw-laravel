@@ -1,0 +1,18 @@
+@keyframes gradientChange {
+    0% {
+        background: linear-gradient(to right, red, yellow);
+    }
+    50% {
+        background: linear-gradient(to right, blue, green);
+    }
+    100% {
+        background: linear-gradient(to right, red, yellow);
+    }
+}
+
+.gradient-background {
+    animation: gradientChange 10s infinite;
+}
+body {
+    color: #fff;
+}
